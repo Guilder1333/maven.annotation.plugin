@@ -1,0 +1,14 @@
+package com.test;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+/**
+ * Created by agriboyedov on 7/5/2016.
+ */
+@Retention(RetentionPolicy.SOURCE)
+@Target(ElementType.TYPE)
+public @interface TestAnnotation2 {
+}
